@@ -1,0 +1,105 @@
+
+.dashboard-header {
+    border-left: 9px solid var(--dark-primary);
+}
+
+.justify-content-end .btn-outline-primary {
+    border-style: dashed !important;
+  }
+
+.km-flag img {
+    width: 20px;
+}
+.en-flag img {
+    width: 20px;
+}
+
+.chart-top {
+    border-bottom: 1.5px dashed var(--secondary);
+}
+
+.list-header {
+    border-bottom: 1.5px dashed var(--secondary);
+    padding-bottom: 7px;
+}
+
+.total-people {
+    border-top: 1.5px dashed var(--secondary);
+    width: 230px;
+    padding-top: 5px;
+    top: 150px;
+    left: 45%;
+}
+
+
+.circle-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.kd {
+    background-color: #000;
+}
+
+.pp {
+    background-color: #546ee5;
+}
+
+.pv {
+    background-color: #44badc;
+}
+
+.male {
+    background-color: #bccee4;
+}
+
+.female {
+    background-color: #546ee5;
+}
+
+.border-dash {
+    border-bottom: 1.5px dashed var(--secondary);
+}
+
+.form-top {
+    border-bottom: 1.5px dashed var(--secondary);
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.cancel-btn i {
+    color: #fa6767;
+}
+
+.cancel-btn:hover i {
+    color: #ffffffff;
+}
+
+.cancel i {
+    color: var(--primary);
+}
+
+.cancel:hover i {
+    color: #ffffffff;
+}
+
+.add-icon {
+    width: 95px;
+    height: 95px;
+}
+
+.add-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.invalid-email {
+    font-size: 55px;
+}
