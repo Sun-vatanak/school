@@ -47,7 +47,7 @@ onMounted(() => {
 })
 
 const onDelete = () => {
-    axios.get(`/api/customers/destroy.php?id=${customerStore.selected_id}`)
+    axios.get(`http://localhost/ApiCustemer/api/customers/destroy.php?id=${customerStore.selected_id}`)
     .then((res) => {
         customerStore.onLoadCustomer();
         dashboardStore.onLoadSummary();

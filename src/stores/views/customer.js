@@ -30,7 +30,7 @@ export const useCustomerStore = defineStore('views/customer', {
     }),
     actions: {
         onLoadCustomer() {
-            axios.get('/api/customers/index.php')
+            axios.get('http://localhost/ApiCustemer/api/customers/index.php')
             .then((res) =>{
                 this.customers = res.data.data;
                 console.log(res.data.data);

@@ -11,7 +11,7 @@ export const useDashboardStore = defineStore('views/dashboard', {
     }),
     actions: {
         onLoadSummary() {
-            axios.get('/api/customers/get_data.php')
+            axios.get('http://localhost/ApiCustemer/api/customers/get_data.php')
             .then((res) => {
                 let data = res.data.data;
                 
